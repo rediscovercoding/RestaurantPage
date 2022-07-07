@@ -12,7 +12,7 @@ console.log(content);
 function leftPanel(){
     const left = document.createElement('div');  
     left.classList.add('leftPanel'); 
-    left.textContent=" "; 
+    left.textContent="Fancy Restaurant"; 
     return left;
 }
 
@@ -21,7 +21,7 @@ content.appendChild(leftPanel());
 let leftPan= document.querySelector('.leftPanel');
 leftPan.appendChild(menu());
 leftPan.appendChild(about());
-leftPan.appendChild(reserve());
+
 
 
 function rightPanel(){

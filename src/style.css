@@ -1,7 +1,8 @@
 
 body{
-    background-color: rgb(49, 118, 139);
-    background-image: url('./taylor-heery-DMBHSgPESBY-unsplash.jpg');
+    background-color: rgb(10, 10, 10);
+    background-image: url('./jason-leung-poI7DelFiVA-unsplash.jpg');
+    
     background-size: cover;
 }
 #content{
@@ -10,26 +11,31 @@ body{
 }
 
 .leftPanel{
-    background-color: rgba(253, 246, 232, 0);
+    background-color: rgba(75, 74, 73, 0);
     display: grid;
     grid-template-rows: 1fr 1fr 1fr 1fr;
     min-height: 700px;
     max-width: 200px;
     min-width: 150px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'The Nautigal', cursive;
+    font-size: 80px;
+    padding: 10%;
+    color: white;
+    white-space: nowrap;
 }
-
 button{
-    border-radius: 10px;
-    background-color: rgba(224, 176, 117, 0.295);
-    
-    font-size: 20px;
+    border-radius: 50px;
+    background-color: rgba(66, 52, 35, 0.295);
+    color: aliceblue;
+    font-size: 50px;
+    margin-top: 20px;
+    font-family: 'Dancing Script', cursive;
 }
 .rightPanel{
-    border: 1px solid black;
+    color: aliceblue;
     display:flex;
     flex-direction: column;
-    padding: 10%;
+    padding: 5%;
 }
 
 #menuList{
@@ -50,9 +56,17 @@ button{
     width: 200px;
 
 }
-#menuName{
+#menuName, .aboutContent{
  text-align: center;
- font: 300;
- font-size: 20px;
- font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ font: 800;
+ font-size: 40px;
+ font-family: 'Shadows Into Light', cursive, sans-serif;
+ color: aliceblue;
+ background-color: black;
+ margin: auto;
+}
+
+#imageCite{
+    padding: 10px; 
+    font-size: 20px;
 }
